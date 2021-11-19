@@ -14,7 +14,7 @@ jobs:
         with:
           # Your GitHub token
           token: ${{ secrets.AREKBEE_METRICS_TOKEN }}
-          config_timezone: Europe/Berlin
+          config_timezone: Europe/Warsaw
           plugin_achievements: 'yes'
           plugin_achievements_limit: 0
           plugin_achievements_secrets: 'yes'
@@ -27,3 +27,13 @@ jobs:
           plugin_notable_filter: stars:>1000
           plugin_notable_repositories: 'yes'
           plugin_stargazers: 'yes'
+          plugin_habits: 'yes'
+          plugin_habits_facts: 'yes'
+          plugin_habits_charts: 'yes'
+          plugin_contributors: 'yes'
+          plugin_people: 'yes'
+          plugin_stackoverflow: 'yes'
+          plugin_stackoverflow_user: 'arek-bee'
+          
+          
+          
